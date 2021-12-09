@@ -1,0 +1,17 @@
+.presentation {
+    margin-top: 4%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width : 100%;
+  align-items: center;
+ 
+}
+.info  {
+   width: 40%;
+    font-size: 25px
+   
+}
+.info  p {
+    text-align: center; 
+}
