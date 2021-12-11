@@ -1,5 +1,55 @@
-.slide { 
-  width: 100%;
-  justify-content: center;
-  display: flex;
+@media screen and (max-width: 768px) {
+  .topVideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    position: static;
+  }
+
+  .video {
+    width: 300px;
+  }
+
+  .topVideo-text {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 280px;
+    border-radius: 1.5rem;
+    bottom: 0;
+    margin-bottom: 10%;
+    background-color: #fff;
+    font-family: "Raleway";
+    font-weight: 600;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .topVideo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+    position: relative;
+  }
+  .topVideo-text {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 380px;
+    border-radius: 1.5rem;
+    bottom: 0;
+    margin-bottom: 10%;
+    background-color: #fff;
+    font-family: "Raleway";
+    font-weight: 600;
+    font-size: 20px;
+  }
 }

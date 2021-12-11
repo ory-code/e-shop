@@ -1,17 +1,26 @@
-.presentation {
+@media screen and (max-width: 768px) {
+  .presentation {
     margin-top: 4%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width : 100%;
-  align-items: center;
- 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .presentation h1 {
+    font-size: 18px;
+  }
 }
-.info  {
-   width: 40%;
-    font-size: 25px
-   
-}
-.info  p {
-    text-align: center; 
+
+@media screen and (min-width: 1024px){
+  .presentation {
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  
 }

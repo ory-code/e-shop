@@ -1,3 +1,72 @@
+@media screen and (max-width: 768px) {
+  .navbar-header {
+    display: flex;
+  flex-direction: column;
+  }
+  .navbar-logo {
+    padding: 1%;
+    font-family: 'Corinthia', cursive;
+    font-size: 30px;
+  }
+  
+  .navbar-search {
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5rem;
+    background-color: beige;
+    height: 50px;
+    width: 80%;
+  }
+  .navbar-SearchIcon {
+    cursor: pointer;
+  }
+  .navbar-search input {
+    border: none;
+    border-radius: 1.5rem;
+    width: 90%;
+    height: 45px;
+    background-color: beige;
+    justify-content: center;
+  }
+  .navbar-search input:focus {
+    border: none;
+    outline: none;
+  }
+  .navbar-nav {
+    display: flex;
+    padding: 1%;
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    flex-direction: column;
+  }
+  .navbar-nav li {
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+  .navbar-ShoppingCartIcon {
+    cursor: pointer;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
 .navbar-header {
   display: flex;
   align-items: center;
@@ -6,10 +75,11 @@
 .navbar-logo {
   padding: 1%;
   font-family: 'Corinthia', cursive;
+  font-size: 30px;
 }
 
 .navbar-search {
-  margin-left: 1%;
+  margin-left: 5%;
   display: flex;
   align-items: center;
   justify-content: center;

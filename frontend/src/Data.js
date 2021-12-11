@@ -43,34 +43,67 @@ export const categories = [
 export const popularProducts = [
   {
     id: 1,
-    img: "https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
+    img: "https://m.media-amazon.com/images/I/71mbaB3h+nS._AC_UL320_.jpg",
+    name: "T-shirt noël",
+    price: "14.99",
+    size: ["S", "M", "L", "XL"] 
   },
   {
     id: 2,
-    img: "https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+    img: "https://m.media-amazon.com/images/I/81eoQfqHveL._AC_UL320_.jpg",
+    name: "Bonnet noël",
+    price: "10",
   },
   {
     id: 3,
-    img: "https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
+    img: "https://m.media-amazon.com/images/I/81EeN-rkw2L._AC_UL320_.jpg",
+    name: "Echarpe grise",
+    price: "29.99",
   },
   {
     id: 4,
-    img: "https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
+    img: "https://m.media-amazon.com/images/I/51Zb5lZLKPL._AC_UL320_.jpg",
+    name: "Pull noël",
+    price: "45",
+    size: ["S", "M", "L", "XL"] 
   },
   {
     id: 5,
-    img: "https://images.ctfassets.net/5gvckmvm9289/3BlDoZxSSjqAvv1jBJP7TH/65f9a95484117730ace42abf64e89572/Noissue-x-Creatsy-Tote-Bag-Mockup-Bundle-_4_-2.png",
+    img: "https://m.media-amazon.com/images/I/51jZ4-Q9lzL._AC_UL320_.jpg",
+    name: "Veste noir",
+    price: "149.99",
+    size: ["S", "M", "L", "XL"] 
   },
   {
     id: 6,
     img: "https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png",
+    name: "Casquette chat",
+    price: "14.99",
   },
   {
     id: 7,
-    img: "https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+    img: "https://m.media-amazon.com/images/I/71vCcowkVCL._AC_UL320_.jpg",
+    name: "Pull DAB",
+    price: "29.99",
+    size: ["S", "M", "L", "XL"] 
   },
   {
     id: 8,
-    img: "https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
+    img: "https://m.media-amazon.com/images/I/81OKcGOF7bS._AC_UL320_.jpg",
+    name: "Doudoune grise",
+    price: "79.99",
+    size: ["S", "M", "L", "XL"] 
+  },
+  {
+    id: 9,
+    img: "https://m.media-amazon.com/images/I/51shw+CqVNL._AC_UL320_.jpg",
+    name: "Bonnet noël",
+    price: "21.50",
+  },
+  {
+    id: 10,
+    img: "https://m.media-amazon.com/images/I/61MlV+VVemL._AC_UL320_.jpg",
+    name: "Gant noir",
+    price: "12",
   },
 ];
