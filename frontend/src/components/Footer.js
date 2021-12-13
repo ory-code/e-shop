@@ -32,6 +32,7 @@ const Footer = () => {
             <PhoneIphoneIcon/>
             <p>+32(0)123 45 67 89</p>
           </div>
+          <img src="https://i.ibb.co/Qfvn4z6/payment.png" alt="payement img"  />
         </div>
       </div>
     </div>

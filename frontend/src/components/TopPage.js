@@ -1,20 +1,22 @@
-import React from "react";
-import "../style/TopPage.css";
-import video from "../assets/Globe - 98980.mp4";
-const TopPage = () => {
-  return (
-    <div className="topVideo">
-      <video autoPlay muted loop className="video">
-        <source src={video} alt="video mate" />
-      </video>
-      <div className="topVideo-text">
-        <p>Sacha vous souhaite de joyeuse fêtes</p>
-      </div>
-    </div>
-  );
-};
+//video
 
-export default TopPage;
+// import React from "react";
+// import "../style/TopPage.css";
+// import video from "../assets/Globe - 98980.mp4";
+// const TopPage = () => {
+//   return (
+//     <div className="topVideo">
+//       <video autoPlay muted loop className="video">
+//         <source src={video} alt="video mate" />
+//       </video>
+//       <div className="topVideo-text">
+//         <p>Sacha vous souhaite de joyeuse fêtes</p>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default TopPage;
 
 //SLIDER //
 

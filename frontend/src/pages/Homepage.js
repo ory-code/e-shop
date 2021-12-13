@@ -4,17 +4,17 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Presentation from "../components/Presentation";
 import Products from "../components/Products";
-import TopPage from "../components/TopPage";
+// import TopPage from "../components/TopPage";
 
 const Homepage = () => {
   return (
     <div>
       <Annoncement />
       <Navbar />
-      <TopPage />
+      {/* <TopPage /> */}
       <Presentation />
-      <Products/>
-      <Footer/>
+      <Products />
+      <Footer />
     </div>
   );
 };

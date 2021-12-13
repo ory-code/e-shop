@@ -1,0 +1,105 @@
+@media (max-width: 768px) {
+  .signin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../assets/people.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .signin-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .signin h1 {
+    cursor: pointer;
+  }
+
+  .signin h2 {
+    font-size: 18px;
+    font-family: "Roboto", serif;
+  }
+  .signin h3 {
+    font-size: 15px;
+    font-family: "Roboto", serif;
+    cursor: pointer;
+    color: #fff;
+  }
+  .signin-form input {
+    margin: 7%;
+    border-radius: 1rem;
+    border: 1px solid rgba(23, 23, 182, 0.637);
+    padding: 0.5rem;
+    font-size: 20px;
+  }
+  .signin-form input:focus {
+    outline: none;
+  }
+
+  .signin-form button {
+    width: 50%;
+    background-color: rgba(41, 41, 212, 0.767);
+    cursor: pointer;
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 20px;
+    border-radius: 1rem;
+    margin: 2%;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .signin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../assets/people.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .signin-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .signin h1 {
+    cursor: pointer;
+  
+  }
+
+  .signin h2 {
+    font-size: 25px;
+    font-family: "Roboto", serif;
+  }
+  .signin h3 {
+    font-size: 15px;
+    font-family: "Roboto", serif;
+    cursor: pointer;
+  }
+  .signin-form input {
+    margin: 7%;
+    border-radius: 1rem;
+    border: 1px solid rgba(23, 23, 182, 0.637);
+    padding: 0.5rem;
+    font-size: 20px;
+  }
+  .signin-form input:focus {
+    outline: none;
+  }
+
+  .signin-form button {
+    width: 50%;
+    background-color: rgba(41, 41, 212, 0.767);
+    cursor: pointer;
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 20px;
+    border-radius: 1rem;
+    margin: 2%;
+  }
+}

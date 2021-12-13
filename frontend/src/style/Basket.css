@@ -1,0 +1,87 @@
+@media screen and (max-width: 767px) {
+  .basket {
+    display: flex;
+    margin: 5%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .basket-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .basket-product {
+    display: flex;
+    padding: 2%;
+    border: 1px solid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 300px;
+  }
+  .basket-product img {
+    max-width: 290px;
+  }
+  .basket-subtotal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.192);
+    height: 150px;
+    width: 250px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  .basket-btn {
+    margin: 20px;
+  }
+  .basket-btn button {
+    cursor: pointer;
+    background-color: rgba(46, 194, 19, 0.294);
+    border-radius: 2px;
+    border: none;
+    font-size: 20px;
+    width: 115px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .basket {
+    display: flex;
+    margin: 5%;
+
+    justify-content: space-between;
+  }
+  .basket-title {
+    margin-left: 1%;
+  }
+  .basket-product {
+    display: flex;
+    padding: 2%;
+    border: 1px solid;
+  }
+  .basket-subtotal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.192);
+    height: 150px;
+    width: 250px;
+    border-radius: 5px;
+  }
+
+  .basket-btn {
+    margin: 20px;
+  }
+  .basket-btn button {
+    cursor: pointer;
+    background-color: rgba(46, 194, 19, 0.294);
+    border-radius: 2px;
+    border: none;
+    font-size: 20px;
+    width: 115px;
+  }
+}
