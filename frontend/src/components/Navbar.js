@@ -14,13 +14,13 @@ const Navbar = () => {
           <h1 onClick={() => navigate("/")}>Sacha</h1>
         </div>
         <div className="navbar-search">
-          <input type="search" placeholder="Search" />
+          <input type="search" placeholder="chercher..." />
           <SearchIcon className="navbar-SearchIcon" />
         </div>
         <nav className="navbar-nav">
           <ul>
-            <li>Our Products</li>
-            <li onClick={() => navigate("/signin")}>Sign In</li>
+            <li>Nos produits</li>
+            <li onClick={() => navigate("/signin")}>Connexion</li>
             {/* <ShoppingCartIcon className="navbar-ShoppingCartIcon" /> */}
             <IconButton aria-label="cart">
               <Badge badgeContent={4} color="success">

@@ -3,7 +3,7 @@ import "../style/Annoncement.css";
 const Annoncement = () => {
   return (
     <div className="annoncement">
-      <p>free delivery until December 25 ! Merry Christmas </p>
+      <p>free delivery !</p>
     </div>
   );
 };

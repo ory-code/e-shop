@@ -13,14 +13,14 @@ const Login = () => {
         <input
           type="text"
           className="input-firstname"
-          placeholder="firstname"
+          placeholder="Prénom"
         ></input>
-        <input type="text" className="input-name" placeholder="name"></input>
-        <input type="email" className="input-email" placeholder="email"></input>
+        <input type="text" className="input-name" placeholder="Nom"></input>
+        <input type="email" className="input-email" placeholder="Email"></input>
         <input
           type="password"
           className="input-passowrd"
-          placeholder="password"
+          placeholder="Mots de passe"
         ></input>
         <button type="submit" className="btn-login-form">
           Envoyer
